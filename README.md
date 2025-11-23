@@ -112,7 +112,7 @@ project/
 ├── 📦 requirements.txt       # List of all Python dependencies
 └── 📘 README.md              # Project documentation
 
-
+```
 
 # ▶️ Usage Guide
 
