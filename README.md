@@ -172,6 +172,7 @@ project/
 
 ## 🔧 Setup Instructions
 
+```bash
 # 1️⃣ Create & activate virtual environment
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
@@ -179,7 +180,7 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 # 2️⃣ Install project dependencies
 pip install -r requirements.txt
 
-# 3️⃣ Create environment variables file
+# 3️⃣ Create environment variables file (.env)
 echo "SERPAPI_API_KEY=your_serpapi_api_key" > .env
 echo "GEMINI_API_KEY=your_gemini_key" >> .env
 echo "GEMINI_MODEL=models/gemini-2.5-flash" >> .env
