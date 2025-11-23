@@ -121,13 +121,12 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 
 
 
-### 2️⃣ Install Requirements
-```bash
+2️⃣ Install Requirements
+
 pip install -r requirements.txt
 
 
-### 3️⃣ Add Environment Variables
-```bash
+3️⃣ Add Environment Variables
 Create a .env file:
 SERPAPI_API_KEY=your_serpapi_api_key
 GEMINI_API_KEY=your_gemini_key
@@ -135,13 +134,7 @@ GEMINI_MODEL=models/gemini-2.5-flash
 
 
 ### 4️⃣ Run the App
-```bash
 streamlit run app.py
-
-
-
-
-
 
 
 
