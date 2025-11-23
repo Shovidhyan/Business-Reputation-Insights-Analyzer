@@ -176,21 +176,28 @@ project/
 
 ## 🔧 Setup Instructions
 
-```bash
+
 # 1️⃣ Create & activate virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
+```
 
 # 2️⃣ Install project dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 3️⃣ Create environment variables file (.env)
+```bash
 echo "SERPAPI_API_KEY=your_serpapi_api_key" > .env
 echo "GEMINI_API_KEY=your_gemini_key" >> .env
 echo "GEMINI_MODEL=models/gemini-2.5-flash" >> .env
-
+```
 # 4️⃣ Run the Streamlit application
+```bash
 streamlit run app.py
+```
 
 
 
