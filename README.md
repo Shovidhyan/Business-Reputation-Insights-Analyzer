@@ -110,35 +110,6 @@ project/
 
 
 
----
-
-## 🔧 Setup Instructions
-
-### 1️⃣ Create Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-
-
-
-2️⃣ Install Requirements
-
-pip install -r requirements.txt
-
-
-3️⃣ Add Environment Variables
-Create a .env file:
-SERPAPI_API_KEY=your_serpapi_api_key
-GEMINI_API_KEY=your_gemini_key
-GEMINI_MODEL=models/gemini-2.5-flash
-
-
-### 4️⃣ Run the App
-streamlit run app.py
-
-
-
-
 # ▶️ Usage Guide
 
 ## 👉 Mode 1: Single Business Analysis
@@ -194,5 +165,27 @@ streamlit run app.py
 | Competitor Comparison | ✔ Fully Implemented |
 | Evaluation Metrics | ✔ Processing time, sentiment confidence, actionability |
 | Langflow-style chaining | ✔ Implemented via modular pipeline |
+
+
+
+---
+
+## 🔧 Setup Instructions
+
+# 1️⃣ Create & activate virtual environment
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+
+# 2️⃣ Install project dependencies
+pip install -r requirements.txt
+
+# 3️⃣ Create environment variables file
+echo "SERPAPI_API_KEY=your_serpapi_api_key" > .env
+echo "GEMINI_API_KEY=your_gemini_key" >> .env
+echo "GEMINI_MODEL=models/gemini-2.5-flash" >> .env
+
+# 4️⃣ Run the Streamlit application
+streamlit run app.py
+
 
 
