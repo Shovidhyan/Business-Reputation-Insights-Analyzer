@@ -12,6 +12,13 @@ pinned: false
 # 📘 Business Reputation & Insights Analyzer
 ### AI-powered Google Maps Review Analysis & Two-Business Competitor Comparison
 
+## 🚀 Live Demo
+
+Try the live application here:
+
+👉 **https://huggingface.co/spaces/shovidhyan/Business_Reputation_Insights_Analyzer**
+
+
 This project analyzes customer reviews from **Google Maps** or **CSV datasets** using advanced AI techniques:
 
 - Sentiment classification  
