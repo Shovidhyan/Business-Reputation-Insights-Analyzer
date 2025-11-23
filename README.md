@@ -100,16 +100,17 @@ Perfect for business benchmarking, marketing analysis, and consulting use-cases.
 ---
 
 ## 📂 Project Structure
+
+```text
 project/
 │
-├── 📄 app.py # Main Streamlit Application
-├── 🤖 analysis_pipeline.py # LLM logic (themes, summary, recommendations)
-├── 🧹 preprocess.py # Text cleaning & preprocessing
-├── 🌐 data_fetcher.py # Fetch reviews from Google Maps via SerpAPI
-├── 🔐 config.py # Environment variable & API key loader
-├── 📦 requirements.txt # All Python dependencies
-└── 📘 README.md # Project documentation
-
+├── 📄 app.py                 # Main Streamlit Application entry point
+├── 🤖 analysis_pipeline.py   # Core LLM logic (Prompt engineering & API calls)
+├── 🧹 preprocess.py          # Text cleaning, tokenization, and normalization
+├── 🌐 data_fetcher.py        # Integration with SerpAPI to scrape Google Maps reviews
+├── 🔐 config.py              # Environment variable management & API Key loading
+├── 📦 requirements.txt       # List of all Python dependencies
+└── 📘 README.md              # Project documentation
 
 
 
